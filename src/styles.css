@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inpitem {
+  margin-bottom: 0.5rem;
+}
+
+.inpitem span {
+  display: block;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.selected {
+  background-color: lightcyan !important;
+}
+
+.item {
+  position: relative;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.item img {
+  margin-right: 0.3rem;
+}
+
+.item .rank {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  color: gray;
+  font-size: 0.7em;
+}
